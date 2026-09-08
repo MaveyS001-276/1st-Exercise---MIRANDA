@@ -1,0 +1,25 @@
+INPUT 5 THINGS ABOUT YOURSELF
+
+Console.WriteLine("1. Enter your favorite color:");
+string color = Console.ReadLine();
+
+Console.WriteLine("Enter your Age: ");
+int age = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Are you happy right now? (yes/no)");
+string feeling = Console.ReadLine();
+
+Console.WriteLine("What date is today? (MONTH/DAY/YEAR): ");
+string date = Console.ReadLine();
+
+Console.WriteLine("Are you Single or Married?: ");
+string status = Console.ReadLine();
+
+
+Console.WriteLine("\n==============================================");
+Console.WriteLine("\nYour favorite color is: " + color);
+Console.WriteLine("Your age is: " + age);
+Console.WriteLine("You are feeling: " + feeling);
+Console.WriteLine("The date for todat is: " + date);
+Console.WriteLine("Your marital status is: " + status);
+Console.WriteLine("\n==============================================");
